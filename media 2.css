@@ -1,0 +1,351 @@
+@media(max-width:450px){
+	/*---------------------------header section----------------------*/
+    .pdf iframe{
+        height:140px;
+        width:230px;
+    }
+    .header{
+/*        border:2px solid red;*/
+            height: auto;
+            width:99%;
+            margin: 0px;
+           }
+    .top{
+            display: none;
+           }
+        
+                
+    .bar{
+/*        border:2px solid black;*/
+
+            display: block;
+            float: right;
+            margin-right: 50px;
+            font-size: 35px;
+            color: #002b80;
+        }
+   .nav{
+/*    border:2px solid red;*/
+
+
+        display: none;
+        text-align: center;
+        width: 97%;
+        color: white;
+        line-height: 30px;
+        margin: auto;
+                 
+    }
+    hr{
+    	display: none;
+    }
+    .logo{
+/*        border:2px solid red;*/
+    	margin-left: 10px;
+    }
+    .nav-item{
+/*        border:2px solid red;*/
+            display: block;
+            padding:5px 0px 5px 0px;
+            margin-bottom: 10px;
+           }
+    #check:checked~ul{
+                display: block;
+               text-align: center;
+               width: 50%;
+            }
+
+    .ab{
+/*        border:2px solid red;*/
+       width: 98%;
+
+    	flex-direction: column;
+    }
+    .parta a{
+    	display: block;
+        margin: auto;
+    	margin-top: 20px;
+    }
+    .parta q{
+    	margin-top: 100px;
+    	margin-right: 50px;
+    	text-align: center;
+    	margin-left:50px;
+    }
+    .ab .parta{
+/*        border:2px solid red;*/
+
+        width:99%;
+        margin: 0px;
+        text-align: center;
+    }
+    .ab .partb{
+/*        border:2px solid red;*/
+        width: 99%;
+        margin: 0px;
+    }
+    .partb img{
+    	width:100%;	
+    }
+    .partb ul{
+        display: block;
+    }
+    .partb ul li{/*border:2px solid red;*/
+        left: -8%;
+    }
+    .pdf{
+        width: 50%;
+        height: 200px;
+        
+    }
+    #cvcheck:checked~.pdf{
+   display: block;
+ }
+    
+/*-----------------------my cleint start----------------*/
+.myclients{
+    width: 99%;
+}
+.abc{/*border:2px solid red;*/
+	flex-direction: column;
+    width: 86%;
+}
+.my{/*border:2px solid red;*/
+	margin-left:-15%;
+    width: 60%;
+}
+/*-----------------------vision part start----------------------------*/
+.vision{width:97%;
+    /*border: 2px solid red;*/
+	flex-direction: column;
+}
+.card{
+     border-style: none;
+}
+.card img{
+	display: block;
+	width:80%;
+    margin-left:0px;
+}
+.card .title{
+    margin-left:33px;
+}
+.content{
+    text-align: center;
+}
+/*vision part end*/
+/*----------------------------------skillsection------------------*/
+.myskill{
+    width: 98.7%;
+	flex-direction: column;
+	margin:0%;
+}
+.leftskill{
+	width:90%;
+}
+.leftskill h1{
+    font-size: 35px;
+    text-align: center;
+}
+.leftskill .para{
+    margin-left: 17%;
+}
+
+#ss{
+    margin-left: 16px;
+}
+
+.rightskill{
+ 	width:98%;
+    margin-top: 50px;
+ }
+.skills{
+ 	width:125%;
+    margin-left: 23px;
+ }
+ .skill{
+    width: 60%;
+     display: block;
+     margin-top: 10px;
+     margin-left: ;
+
+ }
+ .line{
+    width: 50px;
+ }
+/*-----------------------------business figure start--------------------------*/
+.numbers {
+        width: 95%;
+        margin: 100px 0px 100px 50px;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+
+    .count h3 {
+        font-size: 90%;
+        margin: 10px 0px 0px 30px;
+    }
+/*--------------------------Hire me section----------------------*/
+.hire{
+    flex-direction: column;
+    width:99%;
+}
+.hire .pictures{
+    padding-left: 15%;
+    width: 50%;
+}
+.hire .pictures img{
+    width:125%;
+    margin-left:15%;
+}
+.pictures .exp{
+    width:80%;
+    top: -35%;
+}
+.pictures .exp p{
+
+    font-size: 15px;
+}
+.hire .Aboutme{
+
+    width: 100%;
+}
+.hire .Aboutme .colour{
+    margin-left:25px;
+    }
+.hire .Aboutme .colour p{font-size: 20px;}
+.Aboutme h1{
+    font-size: 40px;
+    color:#002b80;
+    padding:7%;
+    }
+.Aboutme .para1{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Aboutme button{
+    width:40%;
+    margin-left:30%;
+    margin-bottom: 50px;
+}
+
+/*------------------------slider part-----------------------*/
+.carousal{
+	width:98%;
+    margin-left: 0px;
+}
+.slide-content{
+	flex-direction: column;
+}
+.slide-content .left-side{
+	width:90%;
+	margin:auto;
+}
+.slide-content  .right-side{
+	width%;
+	margin:auto;
+}
+/*-------------------------imagess part-------------------*/
+.images, .images1{
+	display: block;
+    margin:4px;
+
+}
+.images .myimage{
+	width:95%;
+    height:250px;
+    background-size: cover;
+
+}
+.images .imagedetail{
+    width: 70%;
+}
+.images1{
+    width: 98%;
+}
+.images1 .myimage{
+	width:94%;
+    height: 300px;
+    background-size: cover;
+    
+}
+
+.images1 .imagedetail{
+    width: 70%;
+    
+}
+/*---faq section---*/
+.faqs{/*border: 2px solid red;*/
+    width:98.5%;
+    margin-top:65px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.faqs .colour{
+    margin-left: 12%;
+}
+
+.question{
+    width: 75%;
+    height: 4vh;
+    background-color: darkblue;
+    color: whitesmoke;
+    font-size: 21px;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.answer{
+    height:19vh;
+    margin-left:20px;
+    font-size:20px;
+    width: 75%;
+}
+/*---------------------------------freelance-----------------------------*/
+.freelance{width: 99%;
+    height: 250px;
+}
+.lets a{width: 50px;
+    padding: 7px 40px 7px 40px;
+    margin-top:10%;
+    font-size:6px;
+    background-color:darkblue;
+    color: white;
+    border: none;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 5px;
+}
+.freelance1 .lets{
+    padding-top: 15%;
+    }
+.freelance1 input[type="text"]{
+    width:100%;
+}
+.freelance1 p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+/*---------------------footer------------------------*/
+footer{width: 98%;
+    display: block;
+    margin-top: 60px;
+}
+.leftfoot{
+    width: 60%;
+}
+.rightfoot{
+    width: 80%;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.leftfoot.email{
+    font-size: ;
+}
+.rightfoot ul{
+    margin-left: 15%; 
+}
+}
