@@ -181,9 +181,11 @@
         flex-direction: column;
     }
 
-
+.count h1{
+	font-size:24px;
+	}
     .count h3 {
-        font-size: 90%;
+        font-size: 50px;
         margin: 10px 0px 0px 30px;
     }
 /*--------------------------Hire me section----------------------*/
