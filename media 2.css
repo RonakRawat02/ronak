@@ -176,7 +176,7 @@
 /*-----------------------------business figure start--------------------------*/
 .numbers {
         width: 95%;
-        margin: 100px 0px 100px 50px;
+        margin: 100px 0px 100px 0px;
         display: inline-flex;
         flex-direction: column;
     }
