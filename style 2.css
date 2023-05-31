@@ -297,9 +297,9 @@ margin-top: 0px;
 }
 
 .count {
-  width: 98%;
+  width: 50%;
   display: inline-flex;
-  margin: 25px;
+  margin: 10px;
   border-bottom: 1.5px solid darkblue;
 }
 
